@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Assignment</title>
+    <link rel="stylesheet" href="./CSS/media.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>This about my hobby</h1><br>
+<figcaption>This is an avatar frame of one of those things i pick interest with, watching of Animation</figcaption>
+    <section>
+        <picture>
+            <!-- For  desktops -->
+            <source media="(min-width: 1200px)" srcset="Assets/Image/Avatar 1.jpg" type="image/jpeg">
+            <!-- For tablets -->
+            <source media="(min-width: 768px)" srcset="Assets/Image/Avatar 2.jpg" type="image/jpeg">
+            <!-- For mobile devices -->
+            <source media="(max-width: 767px)" srcset="Assets/Image/Avatar 3.jpg" type="image/jpeg">
+            <!-- Fallback image -->
+            <img src="Assets/Image/Avatar.jpg" alt="Anime Avatar" style="max-width: 100%; height: auto;">
+        </picture>
+    </section>
+    <!-- A sweet melody that inspires while i work -->
+    <section>
+        <figure>
+            <figcaption>A song by Anendlessocean that uplifts me when am down.</figcaption>
+    <audio src="./Assets/Audio/Anendlessocean_-_What_We_Have_CeeNaija.com_.mp3" controls></audio>
+</figure>
+<p></p>
+</section><br>
+<!-- an art of learning something new-->
+<section>
+    <p>This is a basic tutorial on how to start using the powerpoint suite</p>
+    <video src="./Assets/Video/PowerPoint Tutorial for Beginners.mp4" controls></video>
+</section> 
+</body>
+</html>
